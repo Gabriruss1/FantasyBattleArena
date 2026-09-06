@@ -1,0 +1,24 @@
+{
+  "name": "fantasy-battle-arena",
+  "version": "1.0.0",
+  "description": "PS5-level isometric 3D battle game in Final Fantasy style",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "three": "^r128",
+    "gsap": "^3.12.2",
+    "howler": "^2.2.4"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "typescript": "^5.3.3",
+    "@types/node": "^20.10.6",
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8.4.32",
+    "autoprefixer": "^10.4.16"
+  }
+}
